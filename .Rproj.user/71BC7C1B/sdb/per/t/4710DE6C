@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "f=`unsw-normal`\nUN=nsl.train.vectors[1:44,1]\nUN1=nsl.test.test[1:44,1]\n\npar(mfrow=c(1,2))\n\nn1 = length(UN)\nprobabilities1 = (1:n1)/(n1+1)\nnormal.quantiles1 = qnorm(probabilities1, mean(UN, na.rm = T), sd(UN, na.rm = T))\nplot(sort(normal.quantiles1), sort(UN) , xlab = '',lwd=2,\n     ylab = 'Quantiles of normal NSLKDD  ', main = '',col=4)\nabline(0,1,col=2,lwd=2)\n\nn2 = length(UN1)\nprobabilities2 = (1:n2)/(n2+1)\nnormal.quantiles1 = qnorm(probabilities2, mean(UN1, na.rm = T), sd(UN1, na.rm = T))\nplot(sort(normal.quantiles1), sort(UN1) , xlab = '',lwd=2,\n     ylab = 'Quantiles of abnormal NSLKDD  ', main = '',col=4)\nabline(0,1,col=2,lwd=2)\n",
+    "created" : 1519913014142.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "696255822",
+    "id" : "4710DE6C",
+    "lastKnownWriteTime" : 1508893655,
+    "last_content_update" : 1508893655,
+    "path" : "E:/My-papers/Cyber-Simulation/Phishing-Simulation-Modeling/qqplot.R",
+    "project_path" : "qqplot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

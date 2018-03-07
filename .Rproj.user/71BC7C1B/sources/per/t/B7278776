@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519913039439.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4279127719",
+    "id" : "B7278776",
+    "lastKnownWriteTime" : 1509023854,
+    "last_content_update" : 1520191664331,
+    "path" : "E:/My-papers/Cyber-Simulation/Phishing-Simulation-Modeling/ROC.R",
+    "project_path" : "ROC.R",
+    "properties" : {
+        "cursorPosition" : "62,73",
+        "scrollLine" : "52",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
